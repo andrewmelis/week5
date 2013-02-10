@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  happens: 2013-02-09 18:22:20
+
+two:
+  title: MyString
+  happens: 2013-02-09 18:22:20
