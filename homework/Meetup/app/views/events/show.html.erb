@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Event Details</h1>
+
+<p>
+  <b>Title:</b>
+  <%= @event.title %>
+</p>
+
+<p>
+  <b>Happens:</b>
+  <%= @event.happens %>
+</p>
+
+<p>
+  <b>Venue:</b>
+      <% if @event.venue %>
+        <%= link_to @event.venue.name, @event.venue %>
+      <% end %>
+</p>
+
+
+
+<%= link_to 'Edit', edit_event_path(@event) %> |
+<%= link_to 'Back', events_path %>
